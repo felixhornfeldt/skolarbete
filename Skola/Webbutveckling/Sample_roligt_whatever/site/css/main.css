@@ -1,0 +1,61 @@
+body {
+    background-color: #FFFF00;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    color: #000;
+    text-align: center;
+    font-size: 70px;
+}
+
+header h1 {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    align-items: flex-start;
+    display: flex;
+    flex: wrap;
+}
+
+main div {
+    max-width: 50%;
+}
+
+main img {
+    width: 500px;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    font-size: 25px;
+}
+
