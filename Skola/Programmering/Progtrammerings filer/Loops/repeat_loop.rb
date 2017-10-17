@@ -4,7 +4,6 @@ def repeat_loop(number, string)
     while i < number
         full = full + " " + string
         i = i + 1
-        puts i
     end
     return full
 end
