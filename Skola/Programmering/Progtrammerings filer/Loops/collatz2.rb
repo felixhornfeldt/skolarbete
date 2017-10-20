@@ -5,9 +5,9 @@ def collatz_largest(tal)
             tal = tal / 2
         else
             tal = tal * 3 + 1
-        end
-        if tal > largest
-            largest = tal
+            if tal > largest
+                largest = tal
+            end
         end
     end
     return largest
