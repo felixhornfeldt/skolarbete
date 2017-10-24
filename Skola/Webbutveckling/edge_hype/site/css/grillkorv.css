@@ -1,9 +1,14 @@
+body {
+    background-color: black;
+}
+
+
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 400px 60px auto;
     width: 1000px;
-    background-color: cyan;
+    background-color: black;
     margin: 50px;
 }
 
@@ -29,7 +34,7 @@ nav a {
 }
 
 .active {
-    color: yellow;
+    color: purple;
 }
 
 main {
@@ -45,14 +50,15 @@ main img {
 
 main p {
     grid-column: span 1;
-    background-color: blue;
+    /*background-color: blue;*/
     color: #fff;
     padding: 10px;
+    margin: 0;
 }
 
 .mainabout p {
     padding: 10px;
-    background-color: blue;
+    /*background-color: blue;*/
     color: #fff;
 }
 
@@ -72,6 +78,8 @@ main p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 2px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
 }
 
 .mainimg img {
