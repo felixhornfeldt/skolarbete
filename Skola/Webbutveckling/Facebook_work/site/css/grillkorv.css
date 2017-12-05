@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: lightblue;
+    color: #fff;
+}
+
+header {
+    color: #fff;
+    background-color: #3939b6;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    width: 70vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div {
+    grid-column: span 1;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: 200px;
+}
+
+.info h2 {
+    grid-row: span 1;
+}
+
+.info p {
+    grid-row: span 1;
+}
+
+.create_account {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+    height: 200px;
+}
+
+.create_account h2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.create_account p {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.create_account input {
+    max-height: 25px;
+}
+
+.contact {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.create_account select {
+    grid-column: span 2;
+    grid-row: span 1;
+    height: 25px;
+}
+
+@media only screen and (max-device-width: 667px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 0;
+        grid-row-gap: 25px;
+        margin: 0;
+        width: 80vw;
+    }
+
+    .info {
+        height: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
