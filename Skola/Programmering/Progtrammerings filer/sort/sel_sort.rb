@@ -6,7 +6,6 @@ def sel_sort(arr)
         i = 0
         position = 0
         small = unsort_arr[0]
-        # p unsort_arr
         while i < unsort_arr.length
             if small > unsort_arr[i]
                 small = unsort_arr[i]
@@ -14,7 +13,6 @@ def sel_sort(arr)
             end
             i += 1
         end
-        # p small
         sort_arr << small
         unsort_arr.delete_at(position)
         if unsort_arr == []
