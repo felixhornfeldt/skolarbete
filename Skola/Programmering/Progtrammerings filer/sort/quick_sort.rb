@@ -18,7 +18,7 @@ def quick(arr)
     end
 
     output = quick(smaller) + [pivot] + quick(bigger)
-    # p output
+    p output
     return output
 end
 
