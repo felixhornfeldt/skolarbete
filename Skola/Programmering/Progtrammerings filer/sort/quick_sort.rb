@@ -18,8 +18,12 @@ def quick(arr)
     end
 
     output = quick(smaller) + [pivot] + quick(bigger)
-
+    # p output
     return output
 end
 
-p quick([4555,4,3,67,9,45,3,667,6])
+# p quick([4555,4,3,67,9,45,3,667,6])
+
+list = (1...1000).map{rand(1000)}
+
+p quick(list) == list.sort
