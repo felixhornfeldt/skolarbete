@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    color: black;
+    background-color: hotpink;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: lawngreen;
+    color: hotpink;
+}
+
+main {
+    height: 50vh;
+    width: 100vw;
+    background-color: gold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
