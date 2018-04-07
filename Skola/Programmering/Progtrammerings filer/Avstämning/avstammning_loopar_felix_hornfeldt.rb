@@ -16,9 +16,10 @@ puts sum(upto)
 
 def factorial(from)
     output = 1
-    while from >= 1
-        output = output * from
-        from = from - 1
+    temp = from
+    while temp >= 1
+        output = output * temp
+        temp = temp - 1
     end
     return output
 end
